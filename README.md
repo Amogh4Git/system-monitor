@@ -22,6 +22,31 @@ Developed as a System Programming group project.
 ## 🚀 Quickstart Guide
 
 ### 1. Clone the Repository
+Replace `<YOUR-USERNAME>`, `<FEATURE>`, `<FOLDER>` with your own values.
+
+**1. Fork** the repository on GitHub (click **Fork**).
+
+**2. Clone** your fork:
 ```bash
-git clone [https://github.com/YOUR-USERNAME/system-monitor.git](https://github.com/YOUR-USERNAME/system-monitor.git)
+git clone https://github.com/<YOUR-USERNAME>/system-monitor.git
 cd system-monitor
+```
+
+**3. Create your branch:**
+```bash
+git checkout -b feature/<FEATURE>
+```
+
+**5. Add only your folder:**
+```bash
+git add <FOLDER>
+```
+❌ Never use `git add .`
+
+**6. Commit and push:**
+```bash
+git commit -m "feat: Added feature by <YOUR-USERNAME>"
+git push origin feature/<FEATURE>
+```
+
+**7. Open a Pull Request** from your branch to the `main` branch of the original repo. Open the **Files changed** tab and confirm only your folder is listed.
